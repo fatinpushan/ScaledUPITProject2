@@ -15,8 +15,7 @@ public class ExtendReportConfig {
     public static synchronized ExtentReports getExtentReport(){
         if(extent == null) {
 
-
-            extent = new ExtentReports("extend-report/report/extent.html", true) ;
+            extent = new ExtentReports("extend-report/report/report.html", true) ;
 
             extent.addSystemInfo("Host Name", "localhost")
                     .addSystemInfo("Environment", "Chrome 114.0")

@@ -25,8 +25,8 @@ import java.util.Set;
 public class BaseMethod {
 
     private WebDriver driver = null ;
-    private ExtentReports extent = null ;
-    private ExtentTest test = null ;
+    public static ExtentReports extent = null ;
+    public static ExtentTest test = null ;
 
   private static Logger log = LogManager.getLogger(BaseMethod.class.getName()) ;
 
@@ -93,9 +93,9 @@ public class BaseMethod {
     }
 
 
-    public String  takeScreenshotForExtendReport(String name){
+    public synchronized String  takeScreenshotForExtendReport(String name){
         File file = ((TakesScreenshot)browser.BrowserClass.getDriver()).getScreenshotAs(OutputType.FILE) ;
-        String filePath = "extend-report/report" + name + ".png" ;
+        String filePath = "extend-report/report/" + name + ".png" ;
         try {
             FileUtils.copyFile(file, new File(filePath));
         } catch (IOException e) {
@@ -209,8 +209,6 @@ public class BaseMethod {
             System.out.println("Error during thread sleep wait method");
             throw new RuntimeException() ;
         }
-
-
 
     }
 
