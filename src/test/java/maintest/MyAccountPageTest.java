@@ -2,6 +2,7 @@ package maintest;
 
 import basemethod.BaseMethod;
 import dataprovider.DataProviderClass;
+import dataprovider.DataProviderForExcel;
 import org.testng.annotations.Test;
 
 public class MyAccountPageTest extends BaseMethod {
@@ -49,6 +50,9 @@ public class MyAccountPageTest extends BaseMethod {
     }
 
 
-
+    @Test  (dataProvider = "provider2", dataProviderClass = DataProviderForExcel.class )
+    public void negativeLoginUserWithXLSXFile(String email, String password){
+        startTestMethod().myAccount().negativeLoginUserWithXLSXFile(email, password) ;
+    }
 
 }

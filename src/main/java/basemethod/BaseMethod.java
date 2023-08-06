@@ -32,7 +32,7 @@ public class BaseMethod {
 
 
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"before"})
     @Parameter (names = {"driverName"})
     public void beforeMethod(@Optional ("chrome") String driverName){
         browser.BrowserClass.setDriver(driverName);
@@ -53,7 +53,7 @@ public class BaseMethod {
     }
 
 
-    @AfterMethod
+    @AfterMethod (groups = {"after"})
     public void afterMethod(){
 
         try {

@@ -316,13 +316,63 @@ public class MyAccountPage extends BaseMethod {
         log.info(" loginUserWithPropertiesInformation passed successful ");
         test.log(LogStatus.PASS, "Step 5" , "loginUserWithPropertiesInformation passed successful "   );
 
-        test.log(LogStatus.INFO , "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("negativeLoginUserWithDataProviderInformation")) );
+        test.log(LogStatus.INFO , "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("negativeLoginUserWithDataProviderInformation" + email)) );
 
 
         return PageFactory.initElements(driver, MyAccountPage.class) ;
     }
 
 
+
+
+
+
+
+
+    public MyAccountPage negativeLoginUserWithXLSXFile(String email, String password)  {
+        extent = report.ExtendReportConfig.getExtentReport() ;
+
+        test =   extent.startTest("negativeLoginUserWithXLSXFile", "Trying to test login page with fake data from XLSX file , should not " +
+                "be able to login").assignAuthor("Fatin Pushan").assignCategory("Regression Testing").assignCategory("MyAccountPageTEST") ;
+
+
+        test.log(LogStatus.INFO, "Start Up" , "Starting negativeLoginUserWithXLSXFile"   );
+        log.info("Starting negativeLoginUserWithXLSXFile");
+
+        test.log(LogStatus.INFO, "Step 1" , "Sending email to the email field"   );
+        log.info("Sending email to the email field");
+        usernameOrEmailAddressField.sendKeys(email);
+
+        test.log(LogStatus.INFO, "Step 2" , "Sending password to password field"   );
+        log.info("Sending password to password field");
+        passwordField.sendKeys(password) ;
+
+        test.log(LogStatus.INFO, "Step 3" , "Click on remember me checkbox"   );
+        log.info("Click on remember me checkbox");
+        remembermeCheckBox.click();
+
+        test.log(LogStatus.INFO, "Step 4" , "Click on loging button"   );
+        log.info("Click on login button");
+
+        loginButton.click();
+
+
+        try{
+            Assert.assertEquals(loginErrorMessage.getText(), "Error: The username username is not registered on this site. If you are unsure of your username, try your email address instead.");
+        } catch (AssertionError e) {
+
+            Assert.assertEquals(loginErrorMessage.getText(), "Error: The password you entered for the email address "+ email +" is incorrect. Lost your password?");
+        }
+
+
+        log.info(" negativeLoginUserWithXLSXFile passed successful ");
+        test.log(LogStatus.PASS, "Step 5" , "negativeLoginUserWithXLSXFile passed successful "   );
+
+        test.log(LogStatus.INFO , "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("negativeLoginUserWithXLSXFile" + email)) );
+
+
+        return PageFactory.initElements(driver, MyAccountPage.class) ;
+    }
 
 
 

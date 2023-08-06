@@ -17,6 +17,12 @@ public class BrowserClass {
 
         String enterDriverName = driverName.toLowerCase() ;
 
+
+        String chromeDriverPath = "/Users/fatinpushan/Documents/Fatin/Selenium/ScaledUPITProject2/drivers/chromedriver";
+
+        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
+
         switch (enterDriverName) {
             case "chrome" ->
                 driver = new ChromeDriver( );
