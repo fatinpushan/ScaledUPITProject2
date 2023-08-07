@@ -19,7 +19,7 @@ public class ReadXlsxFileClass {
         try (FileInputStream fileInputStream = new FileInputStream(new File("/Users/fatinpushan/Documents/Fatin/Selenium/ScaledUPITProject2/src/main/resources/readingFrom_XLSX_File_.xlsx"));
              Workbook workbook = new XSSFWorkbook(fileInputStream)) {
 
-            Sheet sheet = workbook.getSheetAt(1);
+            Sheet sheet = workbook.getSheetAt(0);
 
             for (Row row : sheet) {
 

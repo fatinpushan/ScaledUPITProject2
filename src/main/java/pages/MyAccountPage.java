@@ -1,6 +1,7 @@
 package pages;
 
 import basemethod.BaseMethod;
+import com.github.javafaker.Faker;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +21,6 @@ public class MyAccountPage extends BaseMethod {
     @FindBy(id= "password") private WebElement passwordField ;
     @FindBy(css= "[name='login']") private WebElement loginButton ;
     @FindBy(id= "rememberme") private WebElement remembermeCheckBox ;
-
     @FindBy(xpath = "//*[@class='woocommerce']/nav/ul/li/a") private WebElement dashboardTextAfterLogin ;
     @FindBy(xpath = "//*[@class='woocommerce-error']/li") private WebElement loginErrorMessage  ;
     @FindBy (linkText = "Orders") private WebElement ordersPageButton ;
@@ -30,6 +30,73 @@ public class MyAccountPage extends BaseMethod {
     @FindBy (linkText = "Account details") private WebElement accountDetailsPageButton ;
     @FindBy (linkText = "Logout") private WebElement logoutButton ;
     @FindBy (xpath = "//*[@class='u-column1 col-1']/h2") private WebElement getLoginTxt ;
+
+    @FindBy(id = "reg_email") private WebElement registerEmailField ;
+    @FindBy(id = "reg_password") private WebElement registerPasswordField ;
+    @FindBy(css = "[name='register']") private WebElement registerButton ;
+
+
+
+
+    public MyAccountPage registerNewAccount(){
+
+        Object[][] userEmailAndPassword = new Object[1][2] ;
+
+
+
+        extent = report.ExtendReportConfig.getExtentReport() ;
+        test = extent.startTest("registerNewAccount", "Trying to make a new account")
+                .assignCategory("Regression Testing").assignCategory("MyAccountPageTEST")
+                .assignAuthor("Fatin Pushan") ;
+
+        log.info("Starting registerNewAccountTest");
+        test.log(LogStatus.INFO, "Step 1", "Starting registerNewAccountTest");
+        Faker faker = new Faker() ;
+
+        log.info("Sending faker email data");
+        test.log(LogStatus.INFO, "Step 2", "Sending faker email data");
+        String emailReg = faker.internet().emailAddress() ;
+        userEmailAndPassword[0][0] = emailReg ;
+        registerEmailField.sendKeys(emailReg);
+
+        log.info("Sending faker password data");
+        test.log(LogStatus.INFO, "Step 3", "Sending faker password data");
+        String regPassword = faker.internet().password() + "hd@123Uu" ;
+        userEmailAndPassword[0][1] = regPassword ;
+        registerPasswordField.sendKeys(regPassword);
+
+        log.info("Click on registerButton");
+        test.log(LogStatus.INFO, "Step 4", "Click on registerButton");
+        registerButton.click();
+
+
+        try {
+            Assert.assertEquals(getPageTitle.getText(), "My account");
+        } catch (AssertionError e) {
+            log.error("Test Has Failed during assertion");
+            test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
+                    + test.addScreenCapture(takeScreenshotForExtendReport("registerNewAccount")));
+            e.printStackTrace();
+        }
+
+        utility.WritingToXLSXFile.writeToExcel(userEmailAndPassword);
+
+        System.out.println(emailReg);
+        System.out.println(regPassword);
+
+
+
+
+
+        log.info("registerNewAccount completed successful");
+        test.log(LogStatus.PASS,"Step 5", "registerNewAccount completed successful" );
+        test.log(LogStatus.INFO, "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("registerNewAccount")));
+
+        return PageFactory.initElements(driver, MyAccountPage.class ) ;
+    }
+
+
+
 
 
     public AccountDetailsPage accountDetailsPageButtonTest(){
@@ -53,7 +120,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(getPageTitle.getText(), "Account details");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("accountDetailsPageButtonTest")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -90,7 +157,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(getPageTitle.getText(), "Addresses");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("addressesPageButtonTest")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -131,7 +198,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(getPageTitle.getText(), "Downloads");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("downloadsPageButtonTest")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -166,7 +233,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(getPageTitle.getText() , "Orders");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("orderPageButtonTest")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -208,7 +275,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(getLoginTxt.getText(), "Login");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("logOutFromAccountPage")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -260,7 +327,7 @@ public class MyAccountPage extends BaseMethod {
 
             Assert.assertEquals(dashboardTextAfterLogin.getText(), "Dashboard");
         } catch (AssertionError e) {
-            log.info("Test Has Failed during assertion");
+            log.error("Test Has Failed during assertion");
             test.log(LogStatus.FAIL, "Failed TEST", "Test has failed please see screenshot and log to fix issue"
                     + test.addScreenCapture(takeScreenshotForExtendReport("loginUserWithPropertiesInformation")));
             throw new RuntimeException("Test Has Failed during assertion") ;
@@ -358,10 +425,10 @@ public class MyAccountPage extends BaseMethod {
 
 
         try{
-            Assert.assertEquals(loginErrorMessage.getText(), "Error: The username username is not registered on this site. If you are unsure of your username, try your email address instead.");
+            Assert.assertEquals(loginErrorMessage.getText(), "Error: The username "+ email+" is not registered on this site. If you are unsure of your username, try your email address instead.");
         } catch (AssertionError e) {
 
-            Assert.assertEquals(loginErrorMessage.getText(), "Error: The password you entered for the email address "+ email +" is incorrect. Lost your password?");
+            Assert.assertEquals(loginErrorMessage.getText(), "Unknown email address. Check again or try your username.");
         }
 
 

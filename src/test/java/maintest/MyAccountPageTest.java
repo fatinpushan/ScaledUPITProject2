@@ -50,9 +50,21 @@ public class MyAccountPageTest extends BaseMethod {
     }
 
 
-    @Test  (dataProvider = "provider2", dataProviderClass = DataProviderForExcel.class )
+    @Test  (dataProvider = "provider2", dataProviderClass = DataProviderForExcel.class, groups = {"Regression Testing"} )
     public void negativeLoginUserWithXLSXFile(String email, String password){
         startTestMethod().myAccount().negativeLoginUserWithXLSXFile(email, password) ;
     }
+
+
+
+
+    @Test (invocationCount = 5)
+    public void registerNewAccount(){
+        startTestMethod().myAccount().registerNewAccount() ;
+
+    }
+
+
+
 
 }
