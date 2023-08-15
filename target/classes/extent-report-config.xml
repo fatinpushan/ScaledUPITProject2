@@ -1,0 +1,13 @@
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <testviewcharts>true</testviewcharts>
+        <view>extent.view.html</view>
+        <theme>dark</theme>
+        <reportname>Extent Report Demo</reportname>
+        <startondeploy>false</startondeploy>
+        <startonbuild>false</startonbuild>
+        <dashboardversion>2.41.2</dashboardversion>
+    </configuration>
+</extentreports>

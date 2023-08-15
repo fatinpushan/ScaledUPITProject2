@@ -1,0 +1,132 @@
+18:16:09.093 [main] INFO  pages.MyAccountPage - Click on loging button
+18:16:10.115 [main] INFO  pages.MyAccountPage -  negativeLoginUserWithXLSXFile passed successful 
+18:16:19.982 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:19.982 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:16:19.983 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:19.985 [main] INFO  pages.HomePage - MyAccount Test
+18:16:19.985 [main] INFO  pages.HomePage - Click on MyAccount
+18:16:25.061 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:16:25.719 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:16:25.719 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:16:26.032 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:16:26.169 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:16:26.274 [main] INFO  pages.MyAccountPage - Click on loging button
+18:16:46.254 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:46.255 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:16:46.255 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:46.259 [main] INFO  pages.HomePage - MyAccount Test
+18:16:46.259 [main] INFO  pages.HomePage - Click on MyAccount
+18:16:51.512 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:16:52.135 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:16:52.135 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:16:52.404 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:16:52.499 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:16:52.592 [main] INFO  pages.MyAccountPage - Click on loging button
+18:17:12.683 [main] INFO  basemethod.BaseMethod - ******************************
+18:17:12.684 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:17:12.684 [main] INFO  basemethod.BaseMethod - ******************************
+18:17:12.689 [main] INFO  pages.HomePage - MyAccount Test
+18:17:12.691 [main] INFO  pages.HomePage - Click on MyAccount
+18:17:18.838 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:17:19.509 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:17:19.509 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:17:19.784 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:17:19.876 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:17:19.967 [main] INFO  pages.MyAccountPage - Click on loging button
+18:17:21.214 [main] INFO  pages.MyAccountPage -  negativeLoginUserWithXLSXFile passed successful 
+18:17:29.941 [main] INFO  basemethod.BaseMethod - ******************************
+18:17:29.942 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:17:29.942 [main] INFO  basemethod.BaseMethod - ******************************
+18:17:29.945 [main] INFO  pages.HomePage - MyAccount Test
+18:17:29.945 [main] INFO  pages.HomePage - Click on MyAccount
+18:17:35.092 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:17:35.744 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:17:35.745 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:17:36.021 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:17:36.126 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:17:36.217 [main] INFO  pages.MyAccountPage - Click on loging button
+18:17:37.214 [main] INFO  pages.MyAccountPage -  negativeLoginUserWithXLSXFile passed successful 
+18:18:56.524 [main] INFO  basemethod.BaseMethod - ******************************
+18:18:56.529 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:18:56.529 [main] INFO  basemethod.BaseMethod - ******************************
+18:18:56.558 [main] INFO  pages.HomePage - MyAccount Test
+18:18:56.558 [main] INFO  pages.HomePage - Click on MyAccount
+18:19:02.401 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:19:02.888 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:19:02.889 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:19:03.180 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:19:03.288 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:19:03.381 [main] INFO  pages.MyAccountPage - Click on loging button
+18:19:04.464 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+18:19:13.787 [main] INFO  basemethod.BaseMethod - ******************************
+18:19:13.788 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:19:13.788 [main] INFO  basemethod.BaseMethod - ******************************
+18:19:13.799 [main] INFO  pages.HomePage - MyAccount Test
+18:19:13.800 [main] INFO  pages.HomePage - Click on MyAccount
+18:19:20.195 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:19:20.701 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:19:20.701 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:19:21.052 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:19:21.172 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:19:21.293 [main] INFO  pages.MyAccountPage - Click on loging button
+18:19:22.435 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+18:19:31.237 [main] INFO  basemethod.BaseMethod - ******************************
+18:19:31.238 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:19:31.239 [main] INFO  basemethod.BaseMethod - ******************************
+18:19:31.241 [main] INFO  pages.HomePage - MyAccount Test
+18:19:31.242 [main] INFO  pages.HomePage - Click on MyAccount
+18:19:36.866 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:19:37.535 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:19:37.535 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:19:37.828 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:19:37.935 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:19:38.041 [main] INFO  pages.MyAccountPage - Click on loging button
+18:19:39.120 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+18:21:26.693 [main] INFO  basemethod.BaseMethod - ******************************
+18:21:26.696 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:21:26.696 [main] INFO  basemethod.BaseMethod - ******************************
+18:21:26.726 [main] INFO  pages.HomePage - MyAccount Test
+18:21:26.726 [main] INFO  pages.HomePage - Click on MyAccount
+18:21:32.297 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:21:32.984 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:21:32.984 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:21:33.242 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:21:33.354 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:21:33.436 [main] INFO  pages.MyAccountPage - Click on loging button
+18:21:34.610 [main] INFO  pages.MyAccountPage -  negativeLoginUserWithXLSXFile passed successful 
+18:21:43.485 [main] INFO  basemethod.BaseMethod - ******************************
+18:21:43.485 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:21:43.485 [main] INFO  basemethod.BaseMethod - ******************************
+18:21:43.489 [main] INFO  pages.HomePage - MyAccount Test
+18:21:43.490 [main] INFO  pages.HomePage - Click on MyAccount
+18:21:48.772 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:21:49.195 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:21:49.195 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:21:49.491 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:21:49.594 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:21:49.682 [main] INFO  pages.MyAccountPage - Click on loging button
+18:22:09.654 [main] INFO  basemethod.BaseMethod - ******************************
+18:22:09.654 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:22:09.654 [main] INFO  basemethod.BaseMethod - ******************************
+18:22:09.658 [main] INFO  pages.HomePage - MyAccount Test
+18:22:09.658 [main] INFO  pages.HomePage - Click on MyAccount
+18:22:14.818 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:22:15.278 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:22:15.279 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:22:15.537 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:22:15.630 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:22:15.724 [main] INFO  pages.MyAccountPage - Click on loging button
+18:22:36.309 [main] INFO  basemethod.BaseMethod - ******************************
+18:22:36.310 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:22:36.310 [main] INFO  basemethod.BaseMethod - ******************************
+18:22:36.314 [main] INFO  pages.HomePage - MyAccount Test
+18:22:36.315 [main] INFO  pages.HomePage - Click on MyAccount
+18:22:41.484 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:22:42.132 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:22:42.132 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:22:42.403 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:22:42.518 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:22:42.604 [main] INFO  pages.MyAccountPage - Click on loging button
+18:22:43.808 [main] INFO  pages.MyAccountPage -  negativeLoginUserWithXLSXFile passed successful 
+18:22:52.634 [main] INFO  basemethod.BaseMethod - ******************************
+18:22:52.635 [main] INFO  basemethod.BaseMethod - ***********STARTING***********

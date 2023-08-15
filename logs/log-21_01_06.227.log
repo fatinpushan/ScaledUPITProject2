@@ -1,0 +1,137 @@
+20:51:47.556 [main] INFO  pages.HomePage - Click on MyAccount
+20:51:53.665 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:51:54.206 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:51:54.231 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:51:54.694 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:52:03.336 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:03.337 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:52:03.337 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:03.345 [main] INFO  pages.HomePage - MyAccount Test
+20:52:03.346 [main] INFO  pages.HomePage - Click on MyAccount
+20:52:09.862 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:52:10.323 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:52:10.325 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:52:10.642 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:52:19.536 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:19.536 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:52:19.537 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:19.539 [main] INFO  pages.HomePage - MyAccount Test
+20:52:19.539 [main] INFO  pages.HomePage - Click on MyAccount
+20:52:25.299 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:52:25.786 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:52:25.796 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:52:26.081 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:52:34.449 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:34.449 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:52:34.451 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:34.453 [main] INFO  pages.HomePage - MyAccount Test
+20:52:34.453 [main] INFO  pages.HomePage - Click on MyAccount
+20:52:40.542 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:52:40.983 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:52:40.984 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:52:41.236 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:52:49.654 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:49.657 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:52:49.657 [main] INFO  basemethod.BaseMethod - ******************************
+20:52:49.666 [main] INFO  pages.HomePage - MyAccount Test
+20:52:49.669 [main] INFO  pages.HomePage - Click on MyAccount
+20:52:56.069 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:52:56.518 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:52:56.520 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:52:56.786 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:55:33.270 [main] INFO  basemethod.BaseMethod - ******************************
+20:55:33.274 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:55:33.274 [main] INFO  basemethod.BaseMethod - ******************************
+20:55:33.313 [main] INFO  pages.HomePage - MyAccount Test
+20:55:33.313 [main] INFO  pages.HomePage - Click on MyAccount
+20:55:39.417 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:55:39.946 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:55:39.969 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:55:40.428 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:55:48.968 [main] INFO  basemethod.BaseMethod - ******************************
+20:55:48.968 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:55:48.968 [main] INFO  basemethod.BaseMethod - ******************************
+20:55:48.973 [main] INFO  pages.HomePage - MyAccount Test
+20:55:48.974 [main] INFO  pages.HomePage - Click on MyAccount
+20:55:54.338 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:55:55.005 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:55:55.007 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:55:55.325 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:56:04.789 [main] INFO  basemethod.BaseMethod - ******************************
+20:56:04.789 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:56:04.790 [main] INFO  basemethod.BaseMethod - ******************************
+20:56:04.791 [main] INFO  pages.HomePage - MyAccount Test
+20:56:04.791 [main] INFO  pages.HomePage - Click on MyAccount
+20:56:11.577 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:56:12.560 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:56:12.563 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:56:13.227 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:57:25.235 [main] INFO  basemethod.BaseMethod - ******************************
+20:57:25.241 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:57:25.242 [main] INFO  basemethod.BaseMethod - ******************************
+20:57:25.281 [main] INFO  pages.HomePage - MyAccount Test
+20:57:25.281 [main] INFO  pages.HomePage - Click on MyAccount
+20:57:31.289 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:57:31.807 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:57:31.837 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:57:32.247 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:57:32.412 [main] INFO  pages.MyAccountPage - Click on registerButton
+20:57:35.149 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+20:57:44.502 [main] INFO  basemethod.BaseMethod - ******************************
+20:57:44.503 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:57:44.504 [main] INFO  basemethod.BaseMethod - ******************************
+20:57:44.508 [main] INFO  pages.HomePage - MyAccount Test
+20:57:44.508 [main] INFO  pages.HomePage - Click on MyAccount
+20:57:50.734 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:57:51.382 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:57:51.383 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:57:51.654 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:57:51.840 [main] INFO  pages.MyAccountPage - Click on registerButton
+20:57:53.876 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+20:58:02.475 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:02.476 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:58:02.476 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:02.479 [main] INFO  pages.HomePage - MyAccount Test
+20:58:02.480 [main] INFO  pages.HomePage - Click on MyAccount
+20:58:08.550 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:58:09.011 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:58:09.012 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:58:09.280 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:58:09.458 [main] INFO  pages.MyAccountPage - Click on registerButton
+20:58:11.585 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+20:58:20.836 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:20.837 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:58:20.837 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:20.840 [main] INFO  pages.HomePage - MyAccount Test
+20:58:20.863 [main] INFO  pages.HomePage - Click on MyAccount
+20:58:26.203 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:58:26.853 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:58:26.853 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:58:27.136 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:58:27.329 [main] INFO  pages.MyAccountPage - Click on registerButton
+20:58:29.111 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+20:58:37.821 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:37.822 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+20:58:37.822 [main] INFO  basemethod.BaseMethod - ******************************
+20:58:37.824 [main] INFO  pages.HomePage - MyAccount Test
+20:58:37.825 [main] INFO  pages.HomePage - Click on MyAccount
+20:58:43.127 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+20:58:43.780 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+20:58:43.781 [main] INFO  pages.MyAccountPage - Sending faker email data
+20:58:44.057 [main] INFO  pages.MyAccountPage - Sending faker password data
+20:58:44.218 [main] INFO  pages.MyAccountPage - Click on registerButton
+20:58:46.276 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+21:00:46.861 [main] INFO  basemethod.BaseMethod - ******************************
+21:00:46.865 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+21:00:46.866 [main] INFO  basemethod.BaseMethod - ******************************
+21:00:46.907 [main] INFO  pages.HomePage - MyAccount Test
+21:00:46.907 [main] INFO  pages.HomePage - Click on MyAccount
+21:00:52.943 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+21:00:53.439 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+21:00:53.483 [main] INFO  pages.MyAccountPage - Sending faker email data
+21:00:53.905 [main] INFO  pages.MyAccountPage - Sending faker password data
+21:00:54.115 [main] INFO  pages.MyAccountPage - Click on registerButton
+21:00:56.932 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+21:01:06.220 [main] INFO  basemethod.BaseMethod - ******************************
+21:01:06.221 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+21:01:06.221 [main] INFO  basemethod.BaseMethod - ******************************

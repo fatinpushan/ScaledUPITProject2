@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+    <groups>
+        <run>
+            <include name="Regression Testing" />
+            <include name="before" />
+            <include name="after" />
+        </run>
+    </groups>
+
+
+   <!-- Change driverName to one of the following "Chrome", "Edge", "Firefox"
+   "Browserstack" -> Change browser stack DesiredCapabilities in info.properties file  -->
+    <parameter name="turnOnHeadless" value="false"/>
+    <parameter name="driverName" value="chrome"/>
+
+
+<test name="Nopackage">
+    <packages>
+        <package name="maintest" />
+    </packages>
+</test>
+
+<listeners>
+    <listener class-name="listener.ListenerClass" />
+</listeners>
+</suite>
