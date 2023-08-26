@@ -12,10 +12,7 @@ public class MyAccountPageTest extends BaseMethod {
 
     @Test(groups = {"Regression Testing"})
     public void LoginPageTestWithPropertiesInformation(){
-
-
         startTestMethod().myAccount().loginUserWithPropertiesInformation() ;
-
     }
 
     @Test  (dataProvider = "provider1", dataProviderClass = DataProviderClass.class , groups = {"Regression Testing"})
@@ -61,7 +58,7 @@ public class MyAccountPageTest extends BaseMethod {
 
 
 
-    @Test (invocationCount = 5 , groups = {"Regression Testing"})
+    @Test (  threadPoolSize = 5,  invocationCount = 5 , groups = {"Regression Testing"})
     public void registerNewAccount(){
         startTestMethod().myAccount().registerNewAccount() ;
 

@@ -67,9 +67,6 @@ public class HomePage extends BaseMethod {
 
 
 
-
-
-
             throw new RuntimeException("Test Has Failed during assertion") ;
         }
 

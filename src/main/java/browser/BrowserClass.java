@@ -20,9 +20,13 @@ public class BrowserClass {
         String enterDriverName = driverName.toLowerCase() ;
 
 
-        String chromeDriverPath = "/Users/fatinpushan/Documents/Fatin/Selenium/ScaledUPITProject2/drivers/chromedriver";
+        String chromeDriverPath = utility.GetPropertiesClass.getProperties("chromeDriverPath")  ;
 
-      //  System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        if(System.getProperty("os.name").toLowerCase().contains("mac")){
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        }
+
+
 
 
         switch (enterDriverName) {

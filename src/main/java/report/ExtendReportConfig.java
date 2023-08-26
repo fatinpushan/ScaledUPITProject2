@@ -28,14 +28,14 @@ public class ExtendReportConfig {
     }
 
 
-    public static void starTest(String testName, String testDescription){
-        test = extent.startTest(testName,testDescription ) ;
-    }
-
-    public static void logStep(LogStatus status, String stepName, String stepDescription){
-
-        test.log(status, stepName, stepDescription);
-    }
+//    public static void starTest(String testName, String testDescription){
+//        test = extent.startTest(testName,testDescription ) ;
+//    }
+//
+//    public static void logStep(LogStatus status, String stepName, String stepDescription){
+//
+//        test.log(status, stepName, stepDescription);
+//    }
 
     public static void endTest(){
         extent.endTest(test);
@@ -45,13 +45,8 @@ public class ExtendReportConfig {
         extent.flush();
     }
 
-    public static  void close(){
-        extent.close();
-    }
-
-
-
-
-
+//    public static  void close(){
+//        extent.close();
+//    }
 
 }

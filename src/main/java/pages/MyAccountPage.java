@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import utility.FakerClass;
 
 public class MyAccountPage extends BaseMethod {
 
@@ -42,6 +43,7 @@ public class MyAccountPage extends BaseMethod {
 
         Object[][] userEmailAndPassword = new Object[1][2] ;
 
+        FakerClass fakerClass = new FakerClass() ;
 
 
         extent = report.ExtendReportConfig.getExtentReport() ;
@@ -55,14 +57,17 @@ public class MyAccountPage extends BaseMethod {
 
         log.info("Sending faker email data");
         test.log(LogStatus.INFO, "Step 2", "Sending faker email data");
-        String emailReg = faker.internet().emailAddress() ;
+        String emailReg = fakerClass.getEmail() ;
+        fakerClass.setEmail(emailReg);
         userEmailAndPassword[0][0] = emailReg ;
+
         registerEmailField.sendKeys(emailReg);
 
         log.info("Sending faker password data");
         test.log(LogStatus.INFO, "Step 3", "Sending faker password data");
-        String regPassword = faker.internet().password() + "hd@123Uu" ;
+        String regPassword = fakerClass.getPassword() + "hd@123Uu" ;
         userEmailAndPassword[0][1] = regPassword ;
+        fakerClass.setEmail(regPassword);
         registerPasswordField.sendKeys(regPassword);
 
         log.info("Click on registerButton");

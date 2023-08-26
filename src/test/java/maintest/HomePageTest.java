@@ -7,19 +7,19 @@ public class HomePageTest extends BaseMethod {
 
 
 
-    @Test(groups = {"Regression Testing"})
+    @Test(groups = {"Smoke Testing"})
     public void hoodieHoverTest(){
         startTestMethod().hoodieHoverTest();
     }
 
-    @Test (groups = {"Regression Testing"})
+    @Test (groups = {"Smoke Testing"})
     public void myAccount(){
 
         startTestMethod().myAccount();
 
     }
 
-    @Test (groups = {"Regression Testing"})
+    @Test (groups = {"Smoke Testing"})
     public void facebookButtonTest(){
         startTestMethod().facebookButtonTest();
 
@@ -27,14 +27,14 @@ public class HomePageTest extends BaseMethod {
 
 
 
-    @Test (groups = {"Regression Testing"})
+    @Test (groups = {"Smoke Testing"})
     public void userCart1Test(){
         startTestMethod().userCart1Test();
 
     }
 
 
-    @Test (groups = {"Regression Testing"})
+    @Test (groups = {"Smoke Testing"})
     public void UserWishlistTest(){
         startTestMethod().UserWishlistTest() ;
 

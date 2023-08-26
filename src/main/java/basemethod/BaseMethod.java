@@ -25,7 +25,7 @@ import java.util.Set;
 
 public class BaseMethod {
 
-    public static   WebDriver driver = null ;
+    public static  WebDriver driver = null ;
     public static ExtentReports extent = null ;
     public static ExtentTest test = null ;
 
@@ -34,7 +34,7 @@ public class BaseMethod {
 
     @Parameters({"turnOnHeadless","driverName"})
     @BeforeMethod (groups = {"before"})
-    public void beforeMethod( @Optional("false")boolean turnOnHeadless , @Optional("chrome") String driverName  ){
+    public  void beforeMethod( @Optional("false")boolean turnOnHeadless , @Optional("chrome") String driverName  ){
 
         browser.BrowserClass.setDriver(turnOnHeadless, driverName);
         driver = browser.BrowserClass.getDriver() ;
@@ -63,8 +63,8 @@ public class BaseMethod {
        report.ExtendReportConfig.endTest();
         report.ExtendReportConfig.flush();
 
-        driver.close();
-        driver.quit();
+//        driver.close();
+//        driver.quit();
     }
 
 
@@ -204,6 +204,7 @@ public class BaseMethod {
             Thread.sleep(1000L * numberOfSeconds ) ;
         } catch (InterruptedException e) {
             System.out.println("Error during thread sleep wait method");
+            log.info("Error during thread sleep wait method");
             throw new RuntimeException() ;
         }
 
