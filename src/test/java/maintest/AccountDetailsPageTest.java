@@ -8,7 +8,7 @@ public class AccountDetailsPageTest extends BaseMethod {
 
 
 
-    @Test
+    @Test (groups = {"Regression Testing"})
     public void changeAccountInfoTest(){
 
         startTestMethod().myAccount().registerNewAccount() .accountDetailsPageButtonTest().changeAccountInfo() ;

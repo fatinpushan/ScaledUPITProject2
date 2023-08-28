@@ -63,8 +63,8 @@ public class BaseMethod {
        report.ExtendReportConfig.endTest();
         report.ExtendReportConfig.flush();
 
-        driver.close();
-       driver.quit();
+       driver.close();
+      driver.quit();
     }
 
 

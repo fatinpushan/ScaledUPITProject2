@@ -57,8 +57,8 @@ public class MyAccountPageTest extends BaseMethod {
 
 
 
-
-    @Test (  threadPoolSize = 5,  invocationCount = 5 , groups = {"Regression Testing"})
+// threadPoolSize = 5
+    @Test (  invocationCount = 5 , groups = {"Regression Testing"})
     public void registerNewAccount(){
         startTestMethod().myAccount().registerNewAccount() ;
 

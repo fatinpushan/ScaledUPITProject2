@@ -39,6 +39,7 @@ public class MyAccountPage extends BaseMethod {
 
 
 
+
     public MyAccountPage registerNewAccount(){
 
         Object[][] userEmailAndPassword = new Object[1][2] ;

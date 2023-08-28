@@ -9,8 +9,14 @@ public class AddressesPageTest extends BaseMethod {
 
 
 
-    @Test
-    public void AddressesPageTest(){
+    @Test (groups = {"Regression Testing"})
+    public void changeShippingAddress(){
         startTestMethod().myAccount().registerNewAccount().addressesPageButtonTest().changeShippingAddress();
     }
+
+
+
+
+
+
 }
