@@ -1,0 +1,132 @@
+15:04:23.644 [main] INFO  pages.HomePage - MyAccount Test
+15:04:23.647 [main] INFO  pages.HomePage - Click on MyAccount
+15:04:28.567 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+15:04:29.330 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+15:04:29.330 [main] INFO  pages.MyAccountPage - Sending email to the email field
+15:04:29.622 [main] INFO  pages.MyAccountPage - Sending password to password field
+15:04:29.730 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+15:04:29.823 [main] INFO  pages.MyAccountPage - Click on loging button
+15:04:30.923 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+15:04:40.190 [main] INFO  basemethod.BaseMethod - ******************************
+15:04:40.191 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+15:04:40.191 [main] INFO  basemethod.BaseMethod - ******************************
+15:04:40.193 [main] INFO  pages.HomePage - MyAccount Test
+15:04:40.193 [main] INFO  pages.HomePage - Click on MyAccount
+15:04:44.833 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+15:04:45.503 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+15:04:45.503 [main] INFO  pages.MyAccountPage - Sending email to the email field
+15:04:45.762 [main] INFO  pages.MyAccountPage - Sending password to password field
+15:04:45.862 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+15:04:45.953 [main] INFO  pages.MyAccountPage - Click on loging button
+15:04:47.183 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+15:04:56.176 [main] INFO  basemethod.BaseMethod - ******************************
+15:04:56.177 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+15:04:56.177 [main] INFO  basemethod.BaseMethod - ******************************
+15:04:56.179 [main] INFO  pages.HomePage - MyAccount Test
+15:04:56.179 [main] INFO  pages.HomePage - Click on MyAccount
+15:05:00.981 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+15:05:02.001 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+15:05:02.001 [main] INFO  pages.MyAccountPage - Sending email to the email field "fatinpushan3@gmail.com"
+15:05:02.338 [main] INFO  pages.MyAccountPage - Sending password to password field "223892852Pp@ " 
+15:05:02.682 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+15:05:02.875 [main] INFO  pages.MyAccountPage - Click on loging button
+15:05:04.386 [main] INFO  pages.MyAccountPage -  loginUserWithPropertiesInformation passed successful 
+15:05:05.075 [main] INFO  pages.MyAccountPage - Starting orderPageButtonTest
+15:05:05.075 [main] INFO  pages.MyAccountPage - Click on order page Button 
+15:05:06.184 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Orders"
+15:05:06.212 [main] INFO  pages.MyAccountPage - orderPageButtonTest completed successful
+17:58:50.356 [main] INFO  basemethod.BaseMethod - ******************************
+17:58:50.362 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+17:58:50.362 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:01.186 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:01.188 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+17:59:01.188 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:10.649 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:10.649 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+17:59:10.650 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:20.240 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:20.240 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+17:59:20.241 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:30.122 [main] INFO  basemethod.BaseMethod - ******************************
+17:59:30.124 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+17:59:30.124 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:26.288 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:26.293 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:01:26.294 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:36.002 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:36.002 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:01:36.003 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:45.625 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:45.626 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:01:45.626 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:54.658 [main] INFO  basemethod.BaseMethod - ******************************
+18:01:54.660 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:01:54.660 [main] INFO  basemethod.BaseMethod - ******************************
+18:02:03.929 [main] INFO  basemethod.BaseMethod - ******************************
+18:02:03.929 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:02:03.929 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:10.924 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:10.931 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:08:10.931 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:10.977 [main] INFO  pages.HomePage - MyAccount Test
+18:08:10.977 [main] INFO  pages.HomePage - Click on MyAccount
+18:08:16.525 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:08:17.199 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:08:17.199 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:08:17.580 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:08:17.667 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:08:17.758 [main] INFO  pages.MyAccountPage - Click on loging button
+18:08:28.356 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:28.357 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:08:28.357 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:28.360 [main] INFO  pages.HomePage - MyAccount Test
+18:08:28.360 [main] INFO  pages.HomePage - Click on MyAccount
+18:08:33.855 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:08:34.387 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:08:34.387 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:08:34.643 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:08:34.745 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:08:34.854 [main] INFO  pages.MyAccountPage - Click on loging button
+18:08:55.226 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:55.227 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:08:55.227 [main] INFO  basemethod.BaseMethod - ******************************
+18:08:55.230 [main] INFO  pages.HomePage - MyAccount Test
+18:08:55.230 [main] INFO  pages.HomePage - Click on MyAccount
+18:09:01.564 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:09:02.011 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:09:02.012 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:09:02.286 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:09:02.387 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:09:02.482 [main] INFO  pages.MyAccountPage - Click on loging button
+18:09:23.293 [main] INFO  basemethod.BaseMethod - ******************************
+18:09:23.294 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:09:23.295 [main] INFO  basemethod.BaseMethod - ******************************
+18:09:23.298 [main] INFO  pages.HomePage - MyAccount Test
+18:09:23.298 [main] INFO  pages.HomePage - Click on MyAccount
+18:09:29.297 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:09:29.722 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:09:29.723 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:09:29.996 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:09:30.089 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:09:30.177 [main] INFO  pages.MyAccountPage - Click on loging button
+18:09:39.664 [main] INFO  basemethod.BaseMethod - ******************************
+18:09:39.668 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:09:39.670 [main] INFO  basemethod.BaseMethod - ******************************
+18:09:39.726 [main] INFO  pages.HomePage - MyAccount Test
+18:09:39.727 [main] INFO  pages.HomePage - Click on MyAccount
+18:09:45.137 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:09:45.825 [main] INFO  pages.MyAccountPage - Starting LoginUserWith
+18:09:45.825 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:09:46.119 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:09:46.212 [main] INFO  pages.MyAccountPage - Click on remember me checkbox
+18:09:46.277 [main] INFO  pages.MyAccountPage - Click on loging button
+18:16:02.519 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:02.533 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+18:16:02.534 [main] INFO  basemethod.BaseMethod - ******************************
+18:16:02.565 [main] INFO  pages.HomePage - MyAccount Test
+18:16:02.565 [main] INFO  pages.HomePage - Click on MyAccount
+18:16:08.008 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+18:16:08.522 [main] INFO  pages.MyAccountPage - Starting negativeLoginUserWithXLSXFile
+18:16:08.522 [main] INFO  pages.MyAccountPage - Sending email to the email field
+18:16:08.900 [main] INFO  pages.MyAccountPage - Sending password to password field
+18:16:08.992 [main] INFO  pages.MyAccountPage - Click on remember me checkbox

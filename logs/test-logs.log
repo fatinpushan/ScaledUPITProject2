@@ -1,0 +1,237 @@
+23:53:12.777 [main] INFO  basemethod.BaseMethod - ******************************
+23:53:12.789 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+23:53:12.790 [main] INFO  basemethod.BaseMethod - ******************************
+23:53:12.834 [main] INFO  pages.HomePage - MyAccount Test
+23:53:12.835 [main] INFO  pages.HomePage - Click on MyAccount
+23:53:18.630 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+23:53:19.536 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+23:53:19.537 [main] INFO  pages.MyAccountPage - Sending faker email data
+23:53:19.836 [main] INFO  pages.MyAccountPage - Sending faker password data
+23:53:20.023 [main] INFO  pages.MyAccountPage - Click on registerButton
+23:53:22.761 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+23:53:23.204 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+23:53:23.204 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+23:53:24.110 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+23:53:24.131 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+23:56:30.325 [main] INFO  basemethod.BaseMethod - ******************************
+23:56:30.331 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+23:56:30.332 [main] INFO  basemethod.BaseMethod - ******************************
+23:56:30.359 [main] INFO  pages.HomePage - MyAccount Test
+23:56:30.359 [main] INFO  pages.HomePage - Click on MyAccount
+23:56:36.462 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+23:56:37.437 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+23:56:37.439 [main] INFO  pages.MyAccountPage - Sending faker email data
+23:56:37.723 [main] INFO  pages.MyAccountPage - Sending faker password data
+23:56:37.939 [main] INFO  pages.MyAccountPage - Click on registerButton
+23:56:40.975 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+23:56:41.465 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+23:56:41.466 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+23:56:42.374 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+23:56:42.395 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+23:58:20.834 [main] INFO  basemethod.BaseMethod - ******************************
+23:58:20.839 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+23:58:20.839 [main] INFO  basemethod.BaseMethod - ******************************
+23:58:20.864 [main] INFO  pages.HomePage - MyAccount Test
+23:58:20.864 [main] INFO  pages.HomePage - Click on MyAccount
+23:58:26.651 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+23:58:27.436 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+23:58:27.438 [main] INFO  pages.MyAccountPage - Sending faker email data
+23:58:27.722 [main] INFO  pages.MyAccountPage - Sending faker password data
+23:58:27.909 [main] INFO  pages.MyAccountPage - Click on registerButton
+23:58:30.749 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+23:58:31.198 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+23:58:31.199 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+23:58:32.071 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+23:58:32.094 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+23:59:56.679 [main] INFO  basemethod.BaseMethod - ******************************
+23:59:56.684 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+23:59:56.684 [main] INFO  basemethod.BaseMethod - ******************************
+23:59:56.711 [main] INFO  pages.HomePage - MyAccount Test
+23:59:56.711 [main] INFO  pages.HomePage - Click on MyAccount
+00:00:02.464 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+00:00:03.600 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+00:00:03.602 [main] INFO  pages.MyAccountPage - Sending faker email data
+00:00:03.956 [main] INFO  pages.MyAccountPage - Sending faker password data
+00:00:04.120 [main] INFO  pages.MyAccountPage - Click on registerButton
+00:00:06.851 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+00:00:07.250 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+00:00:07.250 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+00:00:08.241 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+00:00:08.262 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+00:06:48.821 [main] INFO  basemethod.BaseMethod - ******************************
+00:06:48.827 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+00:06:48.827 [main] INFO  basemethod.BaseMethod - ******************************
+00:06:48.860 [main] INFO  pages.HomePage - MyAccount Test
+00:06:48.861 [main] INFO  pages.HomePage - Click on MyAccount
+00:06:54.818 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+00:06:55.863 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+00:06:55.864 [main] INFO  pages.MyAccountPage - Sending faker email data
+00:06:56.124 [main] INFO  pages.MyAccountPage - Sending faker password data
+00:06:56.309 [main] INFO  pages.MyAccountPage - Click on registerButton
+00:06:59.022 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+00:06:59.447 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+00:06:59.449 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+00:07:00.360 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+00:07:00.381 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+00:08:08.580 [main] INFO  basemethod.BaseMethod - ******************************
+00:08:08.590 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+00:08:08.590 [main] INFO  basemethod.BaseMethod - ******************************
+00:08:08.660 [main] INFO  pages.HomePage - MyAccount Test
+00:08:08.660 [main] INFO  pages.HomePage - Click on MyAccount
+00:08:15.286 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+00:08:16.437 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+00:08:16.440 [main] INFO  pages.MyAccountPage - Sending faker email data
+00:08:16.905 [main] INFO  pages.MyAccountPage - Sending faker password data
+00:08:17.114 [main] INFO  pages.MyAccountPage - Click on registerButton
+00:08:20.470 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+00:08:20.981 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+00:08:20.981 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+00:08:22.020 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+00:08:22.047 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+00:10:00.167 [main] INFO  basemethod.BaseMethod - ******************************
+00:10:00.170 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+00:10:00.170 [main] INFO  basemethod.BaseMethod - ******************************
+00:10:00.192 [main] INFO  pages.HomePage - MyAccount Test
+00:10:00.193 [main] INFO  pages.HomePage - Click on MyAccount
+00:10:05.715 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+00:10:06.444 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+00:10:06.445 [main] INFO  pages.MyAccountPage - Sending faker email data
+00:10:06.675 [main] INFO  pages.MyAccountPage - Sending faker password data
+00:10:06.900 [main] INFO  pages.MyAccountPage - Click on registerButton
+00:10:09.533 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+00:10:09.924 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+00:10:09.924 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+00:10:10.889 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+00:10:10.979 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+11:35:24.524 [main] INFO  basemethod.BaseMethod - ******************************
+11:35:24.527 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:35:24.527 [main] INFO  basemethod.BaseMethod - ******************************
+11:35:24.542 [main] INFO  pages.HomePage - Starting up userWishListTest
+11:35:24.543 [main] INFO  pages.HomePage - Clik on user wish list button
+11:35:26.132 [main] INFO  pages.HomePage - Checking to see if the actual value of wish list page title is equal to the expected "Wishlist"
+11:35:26.330 [main] INFO  pages.HomePage - User wish list button was clicked on successful 
+11:35:38.476 [main] INFO  basemethod.BaseMethod - ******************************
+11:35:38.476 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:35:38.476 [main] INFO  basemethod.BaseMethod - ******************************
+11:35:38.477 [main] INFO  pages.HomePage - Starting facebookButtonTest
+11:35:38.477 [main] INFO  pages.HomePage - Click on the facebook button
+11:48:24.126 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:24.128 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:48:24.129 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:24.147 [main] INFO  pages.HomePage - Starting up userWishListTest
+11:48:24.147 [main] INFO  pages.HomePage - Clik on user wish list button
+11:48:24.880 [main] INFO  pages.HomePage - Checking to see if the actual value of wish list page title is equal to the expected "Wishlist"
+11:48:24.904 [main] INFO  pages.HomePage - User wish list button was clicked on successful 
+11:48:31.421 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:31.421 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:48:31.421 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:31.444 [main] INFO  pages.HomePage - Starting facebookButtonTest
+11:48:31.444 [main] INFO  pages.HomePage - Click on the facebook button
+11:48:32.143 [main] INFO  pages.HomePage - facebookButtonTest passed successful
+11:48:38.424 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:38.424 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:48:38.424 [main] INFO  basemethod.BaseMethod - ******************************
+11:48:38.427 [main] INFO  pages.HomePage - Starting hoodieHoverTest 
+11:48:38.427 [main] INFO  pages.HomePage - Hover over clothing button
+11:48:38.719 [main] INFO  pages.HomePage - Hover over hoodie button and click on it
+11:48:38.874 [main] INFO  pages.HomePage - Test to see if the actual value is the same as the expected value "Hoodies" 
+11:49:01.377 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:01.390 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:49:01.390 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:01.411 [main] INFO  pages.HomePage - Starting up userWishListTest
+11:49:01.411 [main] INFO  pages.HomePage - Clik on user wish list button
+11:49:02.243 [main] INFO  pages.HomePage - Checking to see if the actual value of wish list page title is equal to the expected "Wishlist"
+11:49:02.265 [main] INFO  pages.HomePage - User wish list button was clicked on successful 
+11:49:08.791 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:08.791 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:49:08.791 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:08.793 [main] INFO  pages.HomePage - Starting facebookButtonTest
+11:49:08.794 [main] INFO  pages.HomePage - Click on the facebook button
+11:49:09.364 [main] INFO  pages.HomePage - facebookButtonTest passed successful
+11:49:15.889 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:15.889 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:49:15.889 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:15.891 [main] INFO  pages.HomePage - Starting hoodieHoverTest 
+11:49:15.891 [main] INFO  pages.HomePage - Hover over clothing button
+11:49:16.105 [main] INFO  pages.HomePage - Hover over hoodie button and click on it
+11:49:23.191 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:23.191 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:49:23.191 [main] INFO  basemethod.BaseMethod - ******************************
+11:49:23.193 [main] INFO  pages.HomePage - MyAccount Test
+11:49:23.193 [main] INFO  pages.HomePage - Click on MyAccount
+11:49:24.140 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+11:50:04.199 [main] INFO  basemethod.BaseMethod - ******************************
+11:50:04.214 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:50:04.214 [main] INFO  basemethod.BaseMethod - ******************************
+11:50:04.236 [main] INFO  pages.HomePage - MyAccount Test
+11:50:04.236 [main] INFO  pages.HomePage - Click on MyAccount
+11:50:05.188 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+11:50:05.644 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+11:50:05.645 [main] INFO  pages.MyAccountPage - Sending faker email data
+11:50:05.773 [main] INFO  pages.MyAccountPage - Sending faker password data
+11:50:05.879 [main] INFO  pages.MyAccountPage - Click on registerButton
+11:50:08.267 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+11:50:08.393 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+11:50:08.394 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+11:50:09.121 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+11:50:09.142 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+11:57:16.047 [main] INFO  basemethod.BaseMethod - ******************************
+11:57:16.060 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+11:57:16.060 [main] INFO  basemethod.BaseMethod - ******************************
+11:57:16.083 [main] INFO  pages.HomePage - MyAccount Test
+11:57:16.084 [main] INFO  pages.HomePage - Click on MyAccount
+11:57:16.955 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+11:57:17.399 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+11:57:17.400 [main] INFO  pages.MyAccountPage - Sending faker email data
+11:57:17.511 [main] INFO  pages.MyAccountPage - Sending faker password data
+11:57:17.653 [main] INFO  pages.MyAccountPage - Click on registerButton
+11:57:19.647 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+11:57:19.771 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+11:57:19.771 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+11:57:20.551 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+11:57:20.565 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+12:05:43.068 [main] INFO  basemethod.BaseMethod - ******************************
+12:05:43.086 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+12:05:43.086 [main] INFO  basemethod.BaseMethod - ******************************
+12:05:43.109 [main] INFO  pages.HomePage - MyAccount Test
+12:05:43.109 [main] INFO  pages.HomePage - Click on MyAccount
+12:05:44.015 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+12:05:44.473 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+12:05:44.474 [main] INFO  pages.MyAccountPage - Sending faker email data
+12:05:44.584 [main] INFO  pages.MyAccountPage - Sending faker password data
+12:05:44.712 [main] INFO  pages.MyAccountPage - Click on registerButton
+12:05:46.341 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+12:05:46.498 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+12:05:46.498 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+12:05:47.234 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+12:05:47.249 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+12:06:14.969 [main] INFO  basemethod.BaseMethod - ******************************
+12:06:14.981 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+12:06:14.981 [main] INFO  basemethod.BaseMethod - ******************************
+12:06:15.004 [main] INFO  pages.HomePage - MyAccount Test
+12:06:15.004 [main] INFO  pages.HomePage - Click on MyAccount
+12:06:15.893 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+12:06:16.303 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+12:06:16.304 [main] INFO  pages.MyAccountPage - Sending faker email data
+12:06:16.415 [main] INFO  pages.MyAccountPage - Sending faker password data
+12:06:16.524 [main] INFO  pages.MyAccountPage - Click on registerButton
+12:06:18.619 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+12:06:18.747 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+12:06:18.747 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+12:06:19.459 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+12:06:19.477 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
+12:07:51.428 [main] INFO  basemethod.BaseMethod - ******************************
+12:07:51.447 [main] INFO  basemethod.BaseMethod - ***********STARTING***********
+12:07:51.447 [main] INFO  basemethod.BaseMethod - ******************************
+12:07:51.468 [main] INFO  pages.HomePage - MyAccount Test
+12:07:51.468 [main] INFO  pages.HomePage - Click on MyAccount
+12:07:52.398 [main] INFO  pages.HomePage - Clicked on "MY ACCOUNT" successful 
+12:07:52.825 [main] INFO  pages.MyAccountPage - Starting registerNewAccountTest
+12:07:52.826 [main] INFO  pages.MyAccountPage - Sending faker email data
+12:07:52.939 [main] INFO  pages.MyAccountPage - Sending faker password data
+12:07:53.064 [main] INFO  pages.MyAccountPage - Click on registerButton
+12:07:54.632 [main] INFO  pages.MyAccountPage - registerNewAccount completed successful
+12:07:54.746 [main] INFO  pages.MyAccountPage - Starting addressesPageButtonTest
+12:07:54.746 [main] INFO  pages.MyAccountPage - Click on addresses page Button
+12:07:55.467 [main] INFO  pages.MyAccountPage - Seeing if the actual value is the same as the expected value "Addresses"
+12:07:55.484 [main] INFO  pages.MyAccountPage - addressesPageButtonTest completed successful
