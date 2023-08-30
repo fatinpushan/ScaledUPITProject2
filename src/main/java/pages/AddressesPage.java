@@ -94,8 +94,8 @@ test.log(LogStatus.INFO, "Step 1" , "Click on edit");
     String javascriptEnter = Keys.chord(Keys.ENTER);
     countryField.sendKeys("United States (US)"+ javascriptEnter)  ;
 
-    test.log(LogStatus.INFO, "Step 9" , "Click on country and select US");
-    log.info("Click on country and select US");
+    test.log(LogStatus.INFO, "Step 9" , "Click on state and select US");
+    log.info("Click on state and select US");
     state.click();
     stateField.sendKeys("New York" + javascriptEnter);
 

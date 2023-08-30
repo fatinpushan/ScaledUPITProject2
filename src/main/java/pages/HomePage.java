@@ -1,7 +1,10 @@
 package pages;
 
 import basemethod.BaseMethod;
+import com.microsoft.playwright.W;
+import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
+import jdk.dynalink.linker.LinkerServices;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -9,7 +12,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.time.Duration;
+import java.util.List;
 
 public class HomePage extends BaseMethod {
 
@@ -33,9 +41,51 @@ public class HomePage extends BaseMethod {
     @FindBy(xpath = "//*[@id='menu-item-309']/a") private WebElement hoodieHoverButton ;
     @FindBy(xpath = "//*[@id='menu-item-310']/a") private WebElement tshirtHoverButton ;
     @FindBy(css = "[class='woocommerce-products-header__title page-title']") private WebElement getHoodieTitle ;
+    @FindBy(xpath = "//*[@class='at-cat-color-wrap-17']/div/h2") private WebElement scrollToElement ;
+    @FindBy(css = "[class='added_to_cart wc-forward']") private WebElement waitForItemToBeAdded ;
+    List<WebElement> getTextForCartVerify = driver.findElements(By.xpath("//*[@id='content']/aside/div[2]/div/div/div/ul/li/a/h2")) ;
+    List<WebElement> addItemToCart = driver.findElements(By.xpath("//*[@data-product_id='181']")) ;
+
+
+    static String TextForCartVerify ;
+    public static   String getTextForCartVerify(){
+        return TextForCartVerify ;
+    }
 
 
 
+
+    public CartPage userAddToCartVerify(){
+        extent = report.ExtendReportConfig.getExtentReport() ;
+        test = extent.startTest("userAddToCartVerify", "Testing to see if we can add an item to a cart")
+                .assignAuthor("Fatin Pushan").assignCategory("HomePage") ;
+
+        log.info("String test \"userAddToCartVerify\"");
+        test.log(LogStatus.INFO, "Start Up", "Starting test \"userAddToCartVerify\"");
+
+        test.log(LogStatus.INFO, "Step 1" , "Scroll to element");
+        log.info("Scroll to element");
+        scrollToElement(scrollToElement);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)) ;
+
+        test.log(LogStatus.INFO, "Step 2" , "Click on add cart");
+        log.info("Click on add cart");
+        addItemToCart.get(1).click();
+
+        TextForCartVerify =  getTextForCartVerify.get(5).getText() ;
+
+        test.log(LogStatus.INFO, "Step 3" , "Wait for element to be there");
+        log.info("Wait for element to be there");
+        WebElement waitForCartToBeAdded = wait.until(ExpectedConditions.visibilityOf(waitForItemToBeAdded)) ;
+
+        test.log(LogStatus.INFO, "Step 4" , "Click on chart button");
+        log.info("Click on chart button");
+        waitForCartToBeAdded.click();
+
+
+        // the full code for this test will be done in the cart page class
+        return PageFactory.initElements(driver, CartPage.class) ;
+    }
 
 
     public HoodiesPage hoodieHoverTest(){
@@ -193,6 +243,7 @@ public class HomePage extends BaseMethod {
 
         test.log(LogStatus.INFO, "Screenshot" ,test.addScreenCapture(takeScreenshotForExtendReport("UserWishlistTest")) )   ;
 
+        //for this project we will end the test of WishlistPage page here
         return PageFactory.initElements(driver, WishlistPage.class) ;
     }
 

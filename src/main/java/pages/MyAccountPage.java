@@ -215,6 +215,8 @@ public class MyAccountPage extends BaseMethod {
         log.info("downloadsPageButtonTest completed successful");
 
         test.log(LogStatus.INFO, "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("downloadsPageButtonTest")));
+
+        //for this project we will end the test of DownloadsPage page here
         return PageFactory.initElements(driver, DownloadsPage.class) ;
     }
 
@@ -251,6 +253,7 @@ public class MyAccountPage extends BaseMethod {
 
         test.log(LogStatus.INFO, "Screenshot", test.addScreenCapture(takeScreenshotForExtendReport("orderPageButtonTest")));
 
+        //for this project we will end the test of OrdersPage page here
         return PageFactory.initElements(driver, OrdersPage.class) ;
     }
 
